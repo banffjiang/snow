@@ -14,7 +14,6 @@ This tool synthesizes:
 to predict likely investor questions and generate executive-ready responses.
 """)
 
-# Paste your final qa_df creation logic here OR load from CSV if you saved it
 qa_data = {
     "Question": [
         "Peer performance: Snowflake grew 8.9% QoQ versus peers. What drove outperformance?",
