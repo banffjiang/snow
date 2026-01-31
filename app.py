@@ -32,7 +32,7 @@ qa_data = {
 
 df = pd.DataFrame(qa_data)
 
-st.subheader("📌 Predicted Investor Questions & AI-Generated Responses")
+st.subheader("Predicted Investor Questions & AI-Generated Responses")
 
 for i, row in df.iterrows():
     st.markdown(f"### ❓ {row['Question']}")
